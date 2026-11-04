@@ -99,17 +99,9 @@ FixTrack/
 ```
 
 Installation and Setup
-1. Clone the repository
-
-```bash
-git clone YOUR_REPOSITORY_URL
-cd FixTrack
-```
-
-Replace `YOUR_REPOSITORY_URL` with your actual GitHub repository URL.
+1. Download the repository
 
 2. Install the Required Packages
-
 FixTrack requires the following Python packages: Streamlit, Pandas, & Streamlit Option Menu
 
 To install them manually:
