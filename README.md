@@ -20,6 +20,7 @@ The Delay Risk Monitor uses a simple rule-based scoring system to identify repai
 
 Risk Factors
 | Condition | Risk Score |
+| --- | --- |
 | Parts are needed | +40 |
 | High active workload (8 or more jobs) | +30 |
 | Moderate active workload (5–7 jobs) | +15 |
@@ -28,6 +29,7 @@ Risk Factors
 
 Risk Levels
 | Total Score | Risk Level |
+| --- | --- |
 | 0–29 | Low |
 | 30–59 | Medium |
 | 60 or higher | High |
@@ -108,24 +110,21 @@ Replace `YOUR_REPOSITORY_URL` with your actual GitHub repository URL.
 
 2. Install the Required Packages
 
-FixTrack requires the following Python packages:
-Streamlit
-Pandas
-Streamlit Option Menu
+FixTrack requires the following Python packages: Streamlit, Pandas, & Streamlit Option Menu
 
 To install them manually:
-Open Command Prompt or Terminal.
-Enter the following commands one at a time:
-python -m pip install streamlit
-python -m pip install pandas
-python -m pip install streamlit-option-menu
+1. Open Command Prompt or Terminal.
+2. Enter the following commands one at a time:
+- python -m pip install streamlit
+- python -m pip install pandas
+- python -m pip install streamlit-option-menu
 Wait for each package to finish installing before entering the next command.
    
 3. Run the application
-Navigate to the extracted FixTrack project folder.
-Open Command Prompt or Terminal in the folder.
-Enter the following command:
-python -m streamlit run app.py
+1. Navigate to the extracted FixTrack project folder.
+2. Open Command Prompt or Terminal in the folder.
+3. Enter the following command:
+- python -m streamlit run app.py
 
 The application will open in your web browser.
 
