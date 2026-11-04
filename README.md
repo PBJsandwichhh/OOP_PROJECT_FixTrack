@@ -105,8 +105,11 @@ Installation and Setup
 FixTrack requires the following Python packages: Streamlit, Pandas, & Streamlit Option Menu
 
 To install them manually:
+
 I. Open Command Prompt or Terminal.
+
 II. Enter the following commands one at a time:
+
 - python -m pip install streamlit
 - python -m pip install pandas
 - python -m pip install streamlit-option-menu
@@ -114,9 +117,13 @@ II. Enter the following commands one at a time:
 Wait for each package to finish installing before entering the next command.
    
 3. Run the application
+   
 I. Navigate to the extracted FixTrack project folder.
+
 II. Open Command Prompt or Terminal in the folder.
+
 III. Enter the following command:
+
 - python -m streamlit run app.py
 
 The application will open in your web browser.
